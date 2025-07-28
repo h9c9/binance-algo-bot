@@ -1,0 +1,610 @@
+{
+  "BTC/USDT": {
+    "1d": {
+      "indicators": {
+        "ema_fast": 9,
+        "ema_slow": 21,
+        "rsi_length": 14,
+        "adx_length": 14,
+        "vwap_length": 14,
+        "volume_zscore": 2.0,
+        "mean_rev_length": 20
+      },
+      "thresholds": {
+        "rsi_overbought": 70,
+        "rsi_oversold": 30,
+        "adx_threshold": 25,
+        "mean_rev_threshold": 1.5
+      },
+      "weights": {
+        "ema": 1.2,
+        "rsi": 1.0,
+        "adx": 0.8,
+        "vwap": 1.0,
+        "volume": 0.6,
+        "mean_reversion": 0.7
+      },
+      "strategy": {
+        "stoploss": 0.012,
+        "takeprofit": 0.025,
+        "trailing": 0.008
+      }
+    },
+    "4h": {
+      "indicators": {
+        "ema_fast": 14,
+        "ema_slow": 88,
+        "rsi_length": 11,
+        "adx_length": 19,
+        "vwap_length": 6,
+        "volume_zscore": 1.6,
+        "mean_rev_length": 10
+      },
+      "thresholds": {
+        "rsi_overbought": 79,
+        "rsi_oversold": 11,
+        "adx_threshold": 29,
+        "mean_rev_threshold": 1.17
+      },
+      "weights": {
+        "ema": 0.83,
+        "rsi": 1.31,
+        "adx": 1.27,
+        "vwap": 1.07,
+        "volume": 1.25,
+        "mean_reversion": 1.48
+      },
+      "strategy": {
+        "stoploss": 0.0203,
+        "takeprofit": 0.0284,
+        "trailing": 0.006
+      }
+    },
+    "1h": {
+      "indicators": {
+        "ema_fast": 16,
+        "ema_slow": 73,
+        "rsi_length": 13,
+        "adx_length": 9,
+        "vwap_length": 22,
+        "volume_zscore": 2.18,
+        "mean_rev_length": 21
+      },
+      "thresholds": {
+        "rsi_overbought": 66,
+        "rsi_oversold": 12,
+        "adx_threshold": 20,
+        "mean_rev_threshold": 1.98
+      },
+      "weights": {
+        "ema": 0.88,
+        "rsi": 0.95,
+        "adx": 0.95,
+        "vwap": 0.83,
+        "volume": 0.81,
+        "mean_reversion": 1.26
+      },
+      "strategy": {
+        "stoploss": 0.0098,
+        "takeprofit": 0.0139,
+        "trailing": 0.0044
+      }
+    },
+    "15m": {
+      "indicators": {
+        "ema_fast": 14,
+        "ema_slow": 85,
+        "rsi_length": 14,
+        "adx_length": 8,
+        "vwap_length": 25,
+        "volume_zscore": 2.42,
+        "mean_rev_length": 27
+      },
+      "thresholds": {
+        "rsi_overbought": 70,
+        "rsi_oversold": 22,
+        "adx_threshold": 28,
+        "mean_rev_threshold": 1.14
+      },
+      "weights": {
+        "ema": 1.42,
+        "rsi": 1.08,
+        "adx": 0.88,
+        "vwap": 0.88,
+        "volume": 0.93,
+        "mean_reversion": 0.76
+      },
+      "strategy": {
+        "stoploss": 0.0176,
+        "takeprofit": 0.0277,
+        "trailing": 0.0078
+      }
+    },
+    "5m": {
+      "indicators": {
+        "ema_fast": 16,
+        "ema_slow": 76,
+        "rsi_length": 12,
+        "adx_length": 19,
+        "vwap_length": 12,
+        "volume_zscore": 2.3,
+        "mean_rev_length": 17
+      },
+      "thresholds": {
+        "rsi_overbought": 77,
+        "rsi_oversold": 19,
+        "adx_threshold": 25,
+        "mean_rev_threshold": 0.73
+      },
+      "weights": {
+        "ema": 1.0,
+        "rsi": 0.97,
+        "adx": 0.89,
+        "vwap": 1.29,
+        "volume": 0.92,
+        "mean_reversion": 0.69
+      },
+      "strategy": {
+        "stoploss": 0.0244,
+        "takeprofit": 0.0122,
+        "trailing": 0.006
+      }
+    }
+  },
+  "ETH/USDT": {
+    "1d": {
+      "indicators": {
+        "ema_fast": 17,
+        "ema_slow": 93,
+        "rsi_length": 19,
+        "adx_length": 20,
+        "vwap_length": 14,
+        "volume_zscore": 1.58,
+        "mean_rev_length": 9
+      },
+      "thresholds": {
+        "rsi_overbought": 78,
+        "rsi_oversold": 19,
+        "adx_threshold": 24,
+        "mean_rev_threshold": 1.61
+      },
+      "weights": {
+        "ema": 1.0,
+        "rsi": 1.26,
+        "adx": 1.19,
+        "vwap": 0.81,
+        "volume": 1.02,
+        "mean_reversion": 1.41
+      },
+      "strategy": {
+        "stoploss": 0.0238,
+        "takeprofit": 0.0288,
+        "trailing": 0.0062
+      }
+    },
+    "4h": {
+      "indicators": {
+        "ema_fast": 9,
+        "ema_slow": 76,
+        "rsi_length": 6,
+        "adx_length": 18,
+        "vwap_length": 21,
+        "volume_zscore": 1.81,
+        "mean_rev_length": 17
+      },
+      "thresholds": {
+        "rsi_overbought": 78,
+        "rsi_oversold": 15,
+        "adx_threshold": 17,
+        "mean_rev_threshold": 0.8
+      },
+      "weights": {
+        "ema": 1.05,
+        "rsi": 1.47,
+        "adx": 0.93,
+        "vwap": 1.12,
+        "volume": 1.14,
+        "mean_reversion": 1.34
+      },
+      "strategy": {
+        "stoploss": 0.0183,
+        "takeprofit": 0.0306,
+        "trailing": 0.0119
+      }
+    },
+    "1h": {
+      "indicators": {
+        "ema_fast": 13,
+        "ema_slow": 70,
+        "rsi_length": 11,
+        "adx_length": 14,
+        "vwap_length": 21,
+        "volume_zscore": 2.1,
+        "mean_rev_length": 13
+      },
+      "thresholds": {
+        "rsi_overbought": 65,
+        "rsi_oversold": 25,
+        "adx_threshold": 22,
+        "mean_rev_threshold": 0.55
+      },
+      "weights": {
+        "ema": 0.88,
+        "rsi": 1.34,
+        "adx": 0.81,
+        "vwap": 1.2,
+        "volume": 0.76,
+        "mean_reversion": 1.3
+      },
+      "strategy": {
+        "stoploss": 0.0234,
+        "takeprofit": 0.0227,
+        "trailing": 0.0058
+      }
+    },
+    "15m": {
+      "indicators": {
+        "ema_fast": 8,
+        "ema_slow": 95,
+        "rsi_length": 9,
+        "adx_length": 13,
+        "vwap_length": 13,
+        "volume_zscore": 1.75,
+        "mean_rev_length": 28
+      },
+      "thresholds": {
+        "rsi_overbought": 67,
+        "rsi_oversold": 20,
+        "adx_threshold": 19,
+        "mean_rev_threshold": 1.11
+      },
+      "weights": {
+        "ema": 1.4,
+        "rsi": 1.06,
+        "adx": 1.04,
+        "vwap": 1.2,
+        "volume": 1.34,
+        "mean_reversion": 0.7
+      },
+      "strategy": {
+        "stoploss": 0.0097,
+        "takeprofit": 0.0188,
+        "trailing": 0.0053
+      }
+    },
+    "5m": {
+      "indicators": {
+        "ema_fast": 10,
+        "ema_slow": 86,
+        "rsi_length": 13,
+        "adx_length": 13,
+        "vwap_length": 9,
+        "volume_zscore": 1.97,
+        "mean_rev_length": 5
+      },
+      "thresholds": {
+        "rsi_overbought": 77,
+        "rsi_oversold": 25,
+        "adx_threshold": 28,
+        "mean_rev_threshold": 1.45
+      },
+      "weights": {
+        "ema": 1.45,
+        "rsi": 0.97,
+        "adx": 1.26,
+        "vwap": 1.06,
+        "volume": 1.06,
+        "mean_reversion": 0.64
+      },
+      "strategy": {
+        "stoploss": 0.0111,
+        "takeprofit": 0.0224,
+        "trailing": 0.0047
+      }
+    }
+  },
+  "BNB/USDT": {
+    "1d": {
+      "indicators": {
+        "ema_fast": 9,
+        "ema_slow": 71,
+        "rsi_length": 19,
+        "adx_length": 9,
+        "vwap_length": 19,
+        "volume_zscore": 1.55,
+        "mean_rev_length": 15
+      },
+      "thresholds": {
+        "rsi_overbought": 76,
+        "rsi_oversold": 11,
+        "adx_threshold": 16,
+        "mean_rev_threshold": 1.58
+      },
+      "weights": {
+        "ema": 0.91,
+        "rsi": 1.1,
+        "adx": 0.98,
+        "vwap": 1.49,
+        "volume": 1.25,
+        "mean_reversion": 1.0
+      },
+      "strategy": {
+        "stoploss": 0.0099,
+        "takeprofit": 0.014,
+        "trailing": 0.0048
+      }
+    },
+    "4h": {
+      "indicators": {
+        "ema_fast": 17,
+        "ema_slow": 39,
+        "rsi_length": 13,
+        "adx_length": 13,
+        "vwap_length": 19,
+        "volume_zscore": 1.58,
+        "mean_rev_length": 4
+      },
+      "thresholds": {
+        "rsi_overbought": 70,
+        "rsi_oversold": 22,
+        "adx_threshold": 22,
+        "mean_rev_threshold": 0.86
+      },
+      "weights": {
+        "ema": 1.12,
+        "rsi": 1.3,
+        "adx": 0.98,
+        "vwap": 0.8,
+        "volume": 0.96,
+        "mean_reversion": 1.1
+      },
+      "strategy": {
+        "stoploss": 0.0225,
+        "takeprofit": 0.0335,
+        "trailing": 0.0096
+      }
+    },
+    "1h": {
+      "indicators": {
+        "ema_fast": 9,
+        "ema_slow": 100,
+        "rsi_length": 20,
+        "adx_length": 17,
+        "vwap_length": 20,
+        "volume_zscore": 1.44,
+        "mean_rev_length": 12
+      },
+      "thresholds": {
+        "rsi_overbought": 78,
+        "rsi_oversold": 27,
+        "adx_threshold": 26,
+        "mean_rev_threshold": 0.83
+      },
+      "weights": {
+        "ema": 0.87,
+        "rsi": 1.37,
+        "adx": 0.73,
+        "vwap": 1.42,
+        "volume": 0.75,
+        "mean_reversion": 1.27
+      },
+      "strategy": {
+        "stoploss": 0.0154,
+        "takeprofit": 0.0256,
+        "trailing": 0.0112
+      }
+    },
+    "15m": {
+      "indicators": {
+        "ema_fast": 19,
+        "ema_slow": 81,
+        "rsi_length": 9,
+        "adx_length": 12,
+        "vwap_length": 20,
+        "volume_zscore": 1.69,
+        "mean_rev_length": 3
+      },
+      "thresholds": {
+        "rsi_overbought": 76,
+        "rsi_oversold": 30,
+        "adx_threshold": 29,
+        "mean_rev_threshold": 0.66
+      },
+      "weights": {
+        "ema": 1.07,
+        "rsi": 1.14,
+        "adx": 1.21,
+        "vwap": 0.9,
+        "volume": 1.03,
+        "mean_reversion": 0.7
+      },
+      "strategy": {
+        "stoploss": 0.0082,
+        "takeprofit": 0.02,
+        "trailing": 0.0069
+      }
+    },
+    "5m": {
+      "indicators": {
+        "ema_fast": 8,
+        "ema_slow": 41,
+        "rsi_length": 18,
+        "adx_length": 7,
+        "vwap_length": 13,
+        "volume_zscore": 1.61,
+        "mean_rev_length": 30
+      },
+      "thresholds": {
+        "rsi_overbought": 79,
+        "rsi_oversold": 27,
+        "adx_threshold": 18,
+        "mean_rev_threshold": 1.45
+      },
+      "weights": {
+        "ema": 1.37,
+        "rsi": 1.01,
+        "adx": 0.89,
+        "vwap": 0.86,
+        "volume": 0.63,
+        "mean_reversion": 1.27
+      },
+      "strategy": {
+        "stoploss": 0.0172,
+        "takeprofit": 0.0206,
+        "trailing": 0.0106
+      }
+    }
+  },
+  "SOL/USDT": {
+    "1d": {
+      "indicators": {
+        "ema_fast": 13,
+        "ema_slow": 75,
+        "rsi_length": 10,
+        "adx_length": 13,
+        "vwap_length": 10,
+        "volume_zscore": 2.63,
+        "mean_rev_length": 2
+      },
+      "thresholds": {
+        "rsi_overbought": 72,
+        "rsi_oversold": 18,
+        "adx_threshold": 20,
+        "mean_rev_threshold": 0.64
+      },
+      "weights": {
+        "ema": 1.38,
+        "rsi": 1.49,
+        "adx": 0.78,
+        "vwap": 0.94,
+        "volume": 1.09,
+        "mean_reversion": 0.79
+      },
+      "strategy": {
+        "stoploss": 0.0217,
+        "takeprofit": 0.0157,
+        "trailing": 0.012
+      }
+    },
+    "4h": {
+      "indicators": {
+        "ema_fast": 19,
+        "ema_slow": 64,
+        "rsi_length": 16,
+        "adx_length": 16,
+        "vwap_length": 6,
+        "volume_zscore": 2.56,
+        "mean_rev_length": 28
+      },
+      "thresholds": {
+        "rsi_overbought": 79,
+        "rsi_oversold": 27,
+        "adx_threshold": 18,
+        "mean_rev_threshold": 0.54
+      },
+      "weights": {
+        "ema": 1.08,
+        "rsi": 0.83,
+        "adx": 0.72,
+        "vwap": 1.01,
+        "volume": 0.95,
+        "mean_reversion": 1.19
+      },
+      "strategy": {
+        "stoploss": 0.0085,
+        "takeprofit": 0.0348,
+        "trailing": 0.0075
+      }
+    },
+    "1h": {
+      "indicators": {
+        "ema_fast": 12,
+        "ema_slow": 64,
+        "rsi_length": 6,
+        "adx_length": 19,
+        "vwap_length": 8,
+        "volume_zscore": 2.26,
+        "mean_rev_length": 18
+      },
+      "thresholds": {
+        "rsi_overbought": 68,
+        "rsi_oversold": 29,
+        "adx_threshold": 29,
+        "mean_rev_threshold": 1.28
+      },
+      "weights": {
+        "ema": 1.2,
+        "rsi": 1.31,
+        "adx": 0.8,
+        "vwap": 1.05,
+        "volume": 1.34,
+        "mean_reversion": 1.13
+      },
+      "strategy": {
+        "stoploss": 0.0154,
+        "takeprofit": 0.0256,
+        "trailing": 0.0069
+      }
+    },
+    "15m": {
+      "indicators": {
+        "ema_fast": 11,
+        "ema_slow": 86,
+        "rsi_length": 8,
+        "adx_length": 14,
+        "vwap_length": 25,
+        "volume_zscore": 1.31,
+        "mean_rev_length": 20
+      },
+      "thresholds": {
+        "rsi_overbought": 80,
+        "rsi_oversold": 13,
+        "adx_threshold": 18,
+        "mean_rev_threshold": 0.97
+      },
+      "weights": {
+        "ema": 1.03,
+        "rsi": 1.15,
+        "adx": 1.29,
+        "vwap": 1.03,
+        "volume": 1.02,
+        "mean_reversion": 0.63
+      },
+      "strategy": {
+        "stoploss": 0.0089,
+        "takeprofit": 0.0187,
+        "trailing": 0.0069
+      }
+    },
+    "5m": {
+      "indicators": {
+        "ema_fast": 17,
+        "ema_slow": 38,
+        "rsi_length": 15,
+        "adx_length": 15,
+        "vwap_length": 20,
+        "volume_zscore": 1.34,
+        "mean_rev_length": 6
+      },
+      "thresholds": {
+        "rsi_overbought": 72,
+        "rsi_oversold": 26,
+        "adx_threshold": 16,
+        "mean_rev_threshold": 0.89
+      },
+      "weights": {
+        "ema": 1.47,
+        "rsi": 1.06,
+        "adx": 0.73,
+        "vwap": 1.44,
+        "volume": 0.78,
+        "mean_reversion": 1.28
+      },
+      "strategy": {
+        "stoploss": 0.0094,
+        "takeprofit": 0.0222,
+        "trailing": 0.0076
+      }
+    }
+  }
+}
